@@ -1,0 +1,5 @@
+//file ini berfungsi agar kita bisa menjalankan versi javascript apa saja//
+
+{
+  "presets" : ["env"]  
+}
