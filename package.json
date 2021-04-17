@@ -1,0 +1,39 @@
+{
+  "name": "sppenyakitlambung",
+  "version": "1.0.0",
+  "description": "aplikasi sistem pakar penyakit lambung menggunakan metode certainty factor",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nadiarachmayanti/sppenyakitlambung.git"
+  },
+  "keywords": [
+    "sistem",
+    "pakar",
+    "menggunakan",
+    "metode",
+    "certainty",
+    "factor"
+  ],
+  "author": "nadia rachmayanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadiarachmayanti/sppenyakitlambung/issues"
+  },
+  "homepage": "https://github.com/nadiarachmayanti/sppenyakitlambung#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.7"
+  }
+}
